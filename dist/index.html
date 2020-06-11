@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <title>画哆啦A梦</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+  </head>
+  <body>
+    <style id="demo2"></style>
+    <div id="demo"></div>
+    <div id="buttons">
+      <button id="btnPause">暂停</button>
+      <button id="btnPlay">播放</button>
+      <button id="btnSlow">慢速</button>
+      <button id="btnNormal">中速</button>
+      <button id="btnFast">快速</button>
+    </div>
+    <style>* {
+        box-sizing: border-box;
+      }
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      #buttons {
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-right: 10px;
+      }
+      #buttons > button {
+        margin-bottom: 10px;
+        padding: 4px 8px;
+      }
+      #demo2 {
+        display: none;
+      }
+      #demo {
+        position: fixed;
+        height: 50vh;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border: 1px solid red;
+        overflow-y: auto;
+      }
+      #demo::-webkit-scrollbar {
+        display: none;
+      }
+      #doraemon {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50vh;
+      }</style>
+    <div class="doraemon">
+      <div class="doraemon-head">
+        <div class="eye">
+          <div class="eye-left">
+            <div class="eyeball">
+              <div class="eyeball-white"></div>
+            </div>
+          </div>
+          <div class="eye-right">
+            <div class="eyeball">
+              <div class="eyeball-white"></div>
+            </div>
+          </div>
+        </div>
+        <div class="nose"></div>
+        <div class="face">
+          <div class="beard">
+            <div class="beard-left beard-left1"></div>
+            <div class="beard-left beard-left2"></div>
+            <div class="beard-left beard-left3"></div>
+
+            <div class="beard-right beard-right1"></div>
+            <div class="beard-right beard-right2"></div>
+            <div class="beard-right beard-right3"></div>
+          </div>
+          <div class="mouth"></div>
+        </div>
+      </div>
+    </div>
+    <script src="/main.1f19ae8e.js"></script>
+  </body>
+</html>
