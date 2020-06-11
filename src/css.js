@@ -219,7 +219,7 @@ body {
   margin-top: 120px;
   transform: rotate(15deg);
 }
-/* 好了，这只哆啦A梦送给你 */
+/* 好了，这只哆啦A梦送给大家 */
 
 `;
 export default string;
