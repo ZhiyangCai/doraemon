@@ -27,7 +27,7 @@ body {
 }
 @media (max-width: 500px) {
   .doraemon-head {
-    margin-top:20px;
+    margin-top:10px;
   }
 }
 /* 然后画鼻子 */
