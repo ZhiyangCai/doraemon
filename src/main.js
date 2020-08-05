@@ -16,21 +16,18 @@ body {
   width: 610px;
   height: 610px;
   border: 5px solid black;
-  margin: 10px auto;
+  margin: 5px auto;
   border-radius: 50%;
   background: #3c9dca;
   position: fixed;
   left: 50%;
-  bottom: -80px;
+  top: 50%;
   margin-left: -305px;
-  transform: scale(0.75, 0.75);
+  transform: scale(0.5, 0.5) translateY(-50%);
 }
 @media (max-width: 500px) {
   .doraemon-head {
-    transform: scale(0.5, 0.5);
-    position: fixed;
-    right: -32%;
-    bottom: -160px;
+    margin-top:20px;
   }
 }
 /* 然后画鼻子 */
@@ -157,7 +154,7 @@ body {
   height: 400px;
   border-radius: 0 0 300px 300px;
   /* border: 1px solid black;
-  border-color: transparent transparent black transparent; */
+  border-color: white white black white; */
   position: absolute;
   left: 50%;
   margin-left: -200px;
@@ -169,7 +166,7 @@ body {
   height: 200px;
   border-radius: 0 0 300px 300px;
   border: 2px solid black;
-  border-color: transparent black black black;
+  border-color: white black black black;
   position: absolute;
   left: 0;
   bottom: 0;
